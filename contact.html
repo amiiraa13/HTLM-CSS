@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="./assets/css/contact.css" >
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <nav class="link-container">
+        <ul>
+          <li><a href="./index.html">Accueil</a></li>
+          <li><a href="./html:css.html">HTML/CSS</a></li>
+          <li><a href="./php.html">PHP</a></li>
+          <li><a href="./j.s.html">JS</a></li>
+          <li><a href="#">Nous contacter</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Conctactez Nous !</h1>
+      <div class="input-container">
+        <fieldset>
+            <legend>Contact</legend>
+            <div>
+              <label for="nom">Nom </label>
+              <input id="nom" placeholder="Olivier Serre" autofocus="" required=""><br>
+            </div>
+            <div>
+              <label for="telephone">Portable</label>
+              <input id="telephone" type="tel" placeholder="06xxxxxxxx" pattern="06[0-9]{8}"><br>
+            </div>
+            <div>
+              <label for="email">Email </label>
+              <input id="email" type="email" placeholder="prenom.nom@polytechnique.edu" required="" pattern="[a-zA-Z]*.[a-zA-Z]*@polytechnique.edu"><br>
+            </div>
+            </fieldset>
+          <input type="submit" value="Valider" id="btn-submit" >
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>©️Amiiraa.13</p>
+      <p>Ecole Ri7</p>
+    </footer>
+  </body>
+</html>
